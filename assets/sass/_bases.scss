@@ -15,9 +15,7 @@
 
 //UNO
 .container.contcarrousel {
-    width: 100%;
-    padding: 0;
-	margin-top: 50px;
+    @include cont_carrusel;
 }
 img.imgcarrousel{
 	@include img_responsive;
@@ -29,7 +27,17 @@ section.section_dos{
 	background-color: $color_section_dos;
 }
 img.imgborde{
-	border: 6px solid $color_oro_borde;
-    border-radius: 106px;
-    
+	@include borde_redondo;
+}
+p.text-service{
+	margin-bottom: 64px;
+}
+a.pill_read{
+	background-color: $color_oro_borde;
+	padding: 3px;
+	border-radius: 4px;
+	color: $color_nav_footer;
+}
+div.cont_servicios{
+	margin-bottom: 84px;
 }

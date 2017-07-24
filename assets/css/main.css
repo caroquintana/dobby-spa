@@ -5839,6 +5839,19 @@ section.section_dos {
 
 img.imgborde {
   border: 6px solid #DBBE84;
-  border-radius: 106px; }
+  border-radius: 106px;
+  margin-top: -60px; }
+
+p.text-service {
+  margin-bottom: 64px; }
+
+a.pill_read {
+  background-color: #DBBE84;
+  padding: 3px;
+  border-radius: 4px;
+  color: #2F1F1F; }
+
+div.cont_servicios {
+  margin-bottom: 84px; }
 
 /*# sourceMappingURL=main.css.map */
