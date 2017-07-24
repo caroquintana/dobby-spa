@@ -1,0 +1,22 @@
+@mixin coverimage{
+	width: 100%;
+	height: $cienporciento;
+	margin: 0 auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+@mixin img_responsive{
+	width: 100%;
+    height: auto;
+}
+@mixin centrar_img{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+@mixin base_section{
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+}

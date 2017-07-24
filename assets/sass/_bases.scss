@@ -1,0 +1,35 @@
+// Nav
+.navbar-default {
+    background-color: $color_nav_footer;
+    border-color: none;
+}
+.navbar-default .navbar-nav > li > a{
+	color: $color_section_tres;
+}
+.navbar-nav {
+    margin-left: 30%;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: $color_oro_borde;
+}
+
+//UNO
+.container.contcarrousel {
+    width: 100%;
+    padding: 0;
+	margin-top: 50px;
+}
+img.imgcarrousel{
+	@include img_responsive;
+	@include centrar_img;
+}
+//DOS
+section.section_dos{
+	@include base_section;
+	background-color: $color_section_dos;
+}
+img.imgborde{
+	border: 6px solid $color_oro_borde;
+    border-radius: 106px;
+    
+}
