@@ -41,3 +41,53 @@ a.pill_read{
 div.cont_servicios{
 	margin-bottom: 84px;
 }
+//TRES
+section.section_tres{
+	padding: $padding_section;
+	background-color: $color_section_tres;	
+}
+img.img_presentation{
+	border-radius: 8px;
+	width: 75%;
+}
+h2.title_presentation{
+	margin-top: 0;
+	color: $color_titulo_sdos;
+	margin-bottom: 18px;
+	text-align: center;
+}
+ul.list_description{
+	list-style: none;
+	line-height: 23px;
+	color: #556538;
+}
+p.text-presentation {
+    margin-bottom: 20px;
+}
+//CUATRO
+section.section_cuatro{
+	padding: $padding_section;
+	background-color: $color_section_cuatro;
+	color: $color_section_dos;
+}
+.imgizq, .imgder{
+	border-radius: 8px;
+	margin-bottom: 30px;
+}
+h3.title_program{
+	margin-bottom: 30px;
+}
+.imgizq{
+	float: left;
+	margin-left: 30px;	
+}
+.imgder{
+	float: right;
+	margin-right: 30px;
+}
+.line-separatoruno{
+	@include line_separator;
+}
+.line-separatordos{
+	@include line_separator;
+}

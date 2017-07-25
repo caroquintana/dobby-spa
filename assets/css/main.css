@@ -5854,4 +5854,60 @@ a.pill_read {
 div.cont_servicios {
   margin-bottom: 84px; }
 
+section.section_tres {
+  padding: 80px 0px 60px 0;
+  background-color: #F4F4F4; }
+
+img.img_presentation {
+  border-radius: 8px;
+  width: 75%; }
+
+h2.title_presentation {
+  margin-top: 0;
+  color: #D86B40;
+  margin-bottom: 18px;
+  text-align: center; }
+
+ul.list_description {
+  list-style: none;
+  line-height: 23px;
+  color: #556538; }
+
+p.text-presentation {
+  margin-bottom: 20px; }
+
+section.section_cuatro {
+  padding: 80px 0px 60px 0;
+  background-color: #4A3A3A;
+  color: #E9E0B7; }
+
+.imgizq, .imgder {
+  border-radius: 8px;
+  margin-bottom: 30px; }
+
+h3.title_program {
+  margin-bottom: 30px; }
+
+.imgizq {
+  float: left;
+  margin-left: 30px; }
+
+.imgder {
+  float: right;
+  margin-right: 30px; }
+
+.line-separatoruno {
+  height: 1px;
+  background: #717171;
+  border-bottom: 1px solid #DBBE84;
+  margin-bottom: 30px;
+  width: 50%; }
+
+.line-separatordos {
+  height: 1px;
+  background: #717171;
+  border-bottom: 1px solid #DBBE84;
+  margin-bottom: 30px;
+  width: 50%; }
+
 /*# sourceMappingURL=main.css.map */

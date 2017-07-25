@@ -30,3 +30,10 @@
     padding: 0;
 	margin-top: 50px;
 }
+@mixin line_separator{
+	height:1px;
+	background:#717171;
+	border-bottom:1px solid $color_oro_borde;
+	margin-bottom: 30px;
+	width: 50%;
+}
