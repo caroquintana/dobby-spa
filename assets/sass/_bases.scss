@@ -100,12 +100,7 @@ ul.sociales{
 	display: inline-flex;
 }
 img.imgsociales{
-	vertical-align: middle;
-    background-color:$color_botones_sociales;
-    margin-right: -1px;
-    border-radius: 76px;
-    width: 74%;
-    border: 5px solid $color_texto_rojo;
+	@include imsocial;
 }
 h4.titulos_footer{
 	margin-bottom: 30px;
@@ -113,4 +108,7 @@ h4.titulos_footer{
 p.pmail{
 	margin-bottom: 20px;
 	font-size: 13px;
+}
+p.textomail{
+	color: $color_texto_rojo;
 }

@@ -30,10 +30,11 @@
     padding: 0;
 	margin-top: 50px;
 }
-@mixin line_separator{
-	height:1px;
-	background:#717171;
-	border-bottom:1px solid $color_oro_borde;
-	margin-bottom: 30px;
-	width: 50%;
+@mixin imsocial{
+	vertical-align: middle;
+    background-color:$color_botones_sociales;
+    margin-right: -1px;
+    border-radius: 76px;
+    width: 74%;
+    border: 5px solid $color_texto_rojo;
 }
