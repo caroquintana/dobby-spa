@@ -1,7 +1,7 @@
 // Nav
 .navbar-default {
     background-color: $color_nav_footer;
-    border-color: none;
+    border: none;
 }
 .navbar-default .navbar-nav > li > a{
 	color: $color_section_tres;
@@ -85,9 +85,32 @@ h3.title_program{
 	float: right;
 	margin-right: 30px;
 }
-.line-separatoruno{
-	@include line_separator;
+hr{
+	border-bottom:1px solid $color_oro_borde;
+	width: 80%;
 }
-.line-separatordos{
-	@include line_separator;
+//Footer
+footer{
+	padding: $padding_section;
+	background-color: $color_nav_footer;
+	color: $color_section_dos;
+}
+ul.sociales{
+	list-style: none;
+	display: inline-flex;
+}
+img.imgsociales{
+	vertical-align: middle;
+    background-color:$color_botones_sociales;
+    margin-right: -1px;
+    border-radius: 76px;
+    width: 74%;
+    border: 5px solid $color_texto_rojo;
+}
+h4.titulos_footer{
+	margin-bottom: 30px;
+}
+p.pmail{
+	margin-bottom: 20px;
+	font-size: 13px;
 }
